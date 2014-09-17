@@ -1,0 +1,4 @@
+G:\_development\HolmesChapel\site\HolmesChapelPreSchool\HolmesChapelPreSchool\bin\HolmesChapelPreSchool.dll
+G:\_development\HolmesChapel\site\HolmesChapelPreSchool\HolmesChapelPreSchool\bin\HolmesChapelPreSchool.pdb
+G:\_development\HolmesChapel\site\HolmesChapelPreSchool\HolmesChapelPreSchool\obj\Debug\HolmesChapelPreSchool.dll
+G:\_development\HolmesChapel\site\HolmesChapelPreSchool\HolmesChapelPreSchool\obj\Debug\HolmesChapelPreSchool.pdb

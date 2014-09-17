@@ -1,0 +1,376 @@
+﻿body 
+{
+    font-family: Arial;
+    font-size: 12px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+
+    background-color: #f9f9f9;
+}
+
+/* HEADER */
+.header {
+    float: left;
+    width: 100%;
+    background-color: #f9f9f9;
+    
+}
+
+.useful-info {
+    float: right;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.useful-info span, .useful-info span a, .useful-info span a:visited {
+    color: #c0c0c0;
+}
+
+.useful-info #facebook-logo img  {
+    vertical-align: middle;
+}
+
+.header .logo-left {
+    width: 164px;
+    padding-top: 60px;
+    padding-left: 20px;
+    float: left;
+}
+.header .title {
+    width: 600px;
+    float: left;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.header .title span#mainTitle {
+    font-size: 70px;
+    color: #978472;
+    text-shadow: 1px 1px #333;
+}
+.header .title span#community {
+    font-size:60px;
+    color: #ff9600;
+    text-shadow: 1px 1px #333;
+}
+
+.header .title span#pre-school {
+    font-size: 60px;
+    color: #06b5fe;
+    text-shadow: 1px 1px #333;
+}
+
+.header .logo-right {
+    width: 164px;
+    padding-top: 60px;
+    padding-right: 20px;
+    float: left;
+}
+
+
+.contactUs {
+    float:left;
+    width:132px; 
+    background: #006400 url(/assets/images/patterngreen.png) bottom left repeat;
+     -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.contactUs a {
+     padding: 9px 25px;
+  display: block;
+  text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+  color: #ffffff;
+}
+
+.contactUs a:hover {
+    
+  color: #7a9f22;
+}
+
+
+/* MAIN */
+
+.breadcrumb {
+    float: left;
+    color: #978472;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.headerImage {
+    border: 1px solid #978472;
+}
+.mainBody {
+    float: left;
+    width: 100%;
+    background: #f9f9f9 url(/assets/images/patchwork_background.gif) bottom left repeat;
+  
+}
+
+.mainBody .content {
+    width: 889px;
+    margin:0 auto;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.mainContent h3 {
+    padding-left: 10px;
+    font-family: 'Duru Sans', sans-serif;
+}
+
+.mainBody .content .mainContent {
+    background-color: #fff;
+    margin: 0;
+    float: left;
+    padding: 10px;
+    min-height: 500px;
+    width: 868px;
+}
+
+.galleria {
+    float: left;
+    width: 868px;
+    height: 400px;
+    margin-top: 10px;
+} 
+
+.col {
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+.col img {
+    float: left;
+   
+}
+.staffMemberContent {
+    float: left;
+    width: 260px;
+}
+
+.staffReadMore {
+    display:block;
+    float:right;
+    padding:0;
+    margin:0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.staffMember 
+{
+    float: left;
+     width: 400px;
+    border: 1px solid #978472;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.mainContent a {
+    color: #f89201;
+    text-decoration: none;
+}
+
+.mainContent p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mainContent h2.bigText {
+    font-family: 'Duru Sans', sans-serif;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.mainContent h3.bigText {
+    font-family: 'Duru Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.mainContent .bigTextRunOff {
+    font-family: 'Duru Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.footer {
+      margin:0 auto;
+    float: left;
+    border-top: 1px solid #c0c0c0;
+    width: 100%;
+}
+
+.footer ul {
+    text-align: center;
+}
+
+
+
+.footer ul li {
+    display: inline-block;
+}
+
+.slider {
+    float: left;
+}
+
+.spotlights {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.spotlights h3, .spotlights p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.spotlights p {
+    padding-top: 10px;
+}
+
+.findoutmore {
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    float: right;
+    margin-right: 10px;
+    bottom: 5px;
+    right: 0;
+    position: absolute;
+}
+
+.findoutmore a, .findoutmore a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.findoutmore a:hover {
+     text-decoration: underline;
+    color: #fff;
+}
+
+.findoutmore img {
+    padding-left: 5px;
+}
+
+.spotlight {
+    position: relative;
+    float:left;
+    margin-left: 50px;
+    width: 212px;
+    height:180px;
+   
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:3px solid #978472;
+    background-color:#05aff6;
+    -webkit-box-shadow: #B3B3B3 4px 4px 4px;
+    -moz-box-shadow: #B3B3B3 4px 4px 4px; 
+    box-shadow: #B3B3B3 4px 4px 4px;
+    
+}
+
+ .blue 
+{  
+ background-color:#05aff6;
+     overflow: hidden;
+}
+
+.orange 
+{
+ background-color:#F89201; 
+  overflow: hidden;
+}
+
+ .green {
+ background-color:#8ec30e; 
+}
+
+.newsletter {
+    position: absolute;
+    left: -30px;
+    top: -30px;
+    z-index: 1;
+}
+
+.green h3 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mainContent .left {
+    width: 400px;
+    float: left;
+}
+
+.mainContent .right {
+    width: 400px;
+    float: right;
+    padding-right: 10px;
+    border: #978472 1px solid;
+}
+
+.contactInfo {
+    padding-left: 10px;
+    display: block;
+}
+
+
+.sessionTimes {
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid #b3b3b3;
+}
+
+.sessionTimes thead td {
+    background-color: #978472;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #b3b3b3;
+    
+}
+
+.sessionTimes tbody td {
+    background-color: #f9f9f9;
+    padding: 10px;
+    color: #978472;
+    font-weight: bold;
+    border: 1px solid #b3b3b3;
+}
