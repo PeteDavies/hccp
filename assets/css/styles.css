@@ -37,6 +37,7 @@
 
 .useful-info #facebook-logo img  {
     vertical-align: middle;
+	border: none;
 }
 
 .header .logo-left {
@@ -231,10 +232,14 @@ h2 {
     text-align: center;
 }
 
-
+.footer img{
+border: none;
+}
 
 .footer ul li {
     display: inline-block;
+	*display: inline;
+	zoom: 1;
 }
 
 .slider {
@@ -247,6 +252,10 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     
+}
+
+.spotlights h3 {
+	font-size: 12px;
 }
 
 .spotlights h3, .spotlights p {
@@ -263,14 +272,20 @@ h2 {
 .findoutmore {
     color: #ffffff;
     font-size: 16px;
+    
     display: block;
     margin-top: 5px;
     float: right;
     margin-right: 10px;
+    
     bottom: 5px;
     right: 0;
     position: absolute;
+    
+   
 }
+
+
 
 .findoutmore a, .findoutmore a:visited {
     text-decoration: none;
@@ -284,12 +299,14 @@ h2 {
 
 .findoutmore img {
     padding-left: 5px;
+    border: none;
 }
 
 .spotlight {
     position: relative;
     float:left;
     margin-left: 50px;
+    *padding-bottom: 15px;
     width: 212px;
     height:180px;
    

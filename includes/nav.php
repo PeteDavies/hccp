@@ -23,10 +23,7 @@
                                 </li>
                                 <li><a href='/how-to-apply/'><span>How to Apply</span></a></li>
                                 <li><a href='/fundraising/'><span>Fundraising</span></a>
-                                <ul class="subnav">
-                                        <li><a href="/fundraising/spend-and-raise/">Spend-and-Raise</a></li>
-                                        
-                                    </ul>
+                                
                                 </li>
                                 
                                 <li><a href='/gallery/'><span>Gallery</span></a></li>

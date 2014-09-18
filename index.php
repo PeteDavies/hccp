@@ -6,6 +6,12 @@
                     <?php include '/includes/nav.php';?>
                     
                     <div class="slider">
+		    	<!--[if IE 7.0]>
+		
+			<img src="/assets/images/placeholder_homepage.jpg" alt="Holmes Chapel community Pre-school"/>
+			
+			<![endif]-->
+		    
                         <div id="slider">
                             <div class="slide1">
                               <img src="/assets/images/placeholder_homepage.jpg" alt="Holmes Chapel community Pre-school"/>
@@ -15,7 +21,7 @@
                                
                             </div>  
                             
-                    </div>
+                    	</div>
                   
                         
                     </div>

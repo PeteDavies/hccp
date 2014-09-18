@@ -23,7 +23,7 @@ $pagename = "Fundraising";
                                </p><p>
                             Since we are a registered charity, any profits are directed back into the pre-school to benefit the children.  Fundraising allows us to purchase larger items which add to the pre-school experience.  Recently the garden area has been updated to include a soft play surface, gazebo and willow dome tunnel to mention a few.
                                </p><p>
-                            Details of forthcoming events are published in our <a href="/newsletter/">newsletter</a>
+                            Details of forthcoming events are published in our <a href="/about-us/newsletter/">newsletter</a>
                         </p>
 
                     </div>
