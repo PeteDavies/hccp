@@ -27,13 +27,13 @@ $pagename = "Policies";
                               </thead>
                               <tbody>
                               <tr>
-                                    <td>E Safety - <a href="/assets/documents/E safety Policy 2015.doc">Download this policy</a>  
+                                    <td>E Safety - <a href="/assets/documents/E_safety_Policy_2015.doc">Download this policy</a>  
                                     </td>
                                    
                                 </tr>
                                 <tr>
                                   <td>
-                                    Social Media - <a href="/assets/documents/Social Media  policy - Jan 2015">Download this policy</a>
+                                    Social Media - <a href="/assets/documents/Social_Media_policy_-_Jan_2015">Download this policy</a>
                                   </td>
 
                                 </tr>
