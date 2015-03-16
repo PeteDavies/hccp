@@ -67,6 +67,8 @@
     <Folder Include="fundraising\spend-and-raise\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\documents\E_safety_Policy_2015.doc" />
+    <Content Include="assets\documents\Social_Media_policy_-_Jan_2015.docx" />
     <None Include="Properties\PublishProfiles\hccp.pubxml" />
     <None Include="school-information\policies\index.php" />
     <None Include="school-information\inclusion\index.php" />

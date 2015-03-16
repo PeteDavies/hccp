@@ -33,7 +33,7 @@ $pagename = "Policies";
                                 </tr>
                                 <tr>
                                   <td>
-                                    Social Media - <a href="/assets/documents/Social_Media_policy_-_Jan_2015">Download this policy</a>
+                                    Social Media - <a href="/assets/documents/Social_Media_policy_-_Jan_2015.docx">Download this policy</a>
                                   </td>
 
                                 </tr>
