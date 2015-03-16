@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BBD72C9-0F92-48EA-BFCE-17982354852B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HolmesChapelPreSchool</RootNamespace>
+    <AssemblyName>HolmesChapelPreSchool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fundraising\spend-and-raise\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="school-information\policies\index.php" />
+    <None Include="school-information\inclusion\index.php" />
+    <None Include="school-information\term-dates\index.php" />
+    <None Include="school-information\fees-and-grants\index.php" />
+    <None Include="school-information\session-times\index.php" />
+    <None Include="school-information\learning-and-development\index.php" />
+    <None Include="school-information\eyfs-framework\index.php" />
+    <None Include="about-us\our-staff\index.php" />
+    <None Include="assets\scripts\galleria\LICENSE" />
+    <None Include="school-information\index.php" />
+    <None Include="about-us\index.php" />
+    <None Include="about-us\our-staff\alison-smethurst\index.php" />
+    <None Include="about-us\our-staff\diane-cox\index.php" />
+    <None Include="about-us\our-staff\janice-lysycia\index.php" />
+    <None Include="about-us\our-staff\joanne-holttum\index.php" />
+    <None Include="about-us\our-staff\pamela-slaughter\index.php" />
+    <None Include="about-us\our-staff\rebekah-thomas\index.php" />
+    <None Include="about-us\our-staff\sally-corrigan\index.php" />
+    <None Include="about-us\newsletter\index.php" />
+    <Content Include="assets\css\lean-slider.css" />
+    <Content Include="assets\css\sample-styles.css" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\css\topnavigation.css" />
+    <Content Include="assets\css\topnavwithsub.css" />
+    <Content Include="assets\images\aboutus.jpg" />
+    <Content Include="assets\images\arrows.png" />
+    <Content Include="assets\images\bullets.png" />
+    <Content Include="assets\images\loading.gif" />
+    <Content Include="assets\images\placeholder_homepage2.jpg" />
+    <Content Include="assets\images\facebook_logo.gif" />
+    <Content Include="assets\images\footer_earlyfoundations.gif" />
+    <Content Include="assets\images\footer_healthyschools.gif" />
+    <Content Include="assets\images\footer_lottery.gif" />
+    <Content Include="assets\images\footer_offsted.gif" />
+    <Content Include="assets\images\footer_preschool_alliance.gif" />
+    <Content Include="assets\images\logo.gif" />
+    <Content Include="assets\images\newsletter.png" />
+    <Content Include="assets\images\patchwork_background.gif" />
+    <Content Include="assets\images\pattern.png" />
+    <Content Include="assets\images\pattern2.png" />
+    <Content Include="assets\images\patterngreen.png" />
+    <Content Include="assets\images\placeholder_homepage.jpg" />
+    <Content Include="assets\images\placeholder_homepage2.png" />
+    <Content Include="assets\images\play_learn_grow_logo.gif" />
+    <Content Include="assets\images\small_arrow.png" />
+    <Content Include="assets\images\spotlight_image_kids.gif" />
+    <Content Include="assets\images\spotlight_image_map.gif" />
+    <Content Include="assets\images\staff\alison-smethurst.gif" />
+    <Content Include="assets\images\staff\diane_cox.gif" />
+    <Content Include="assets\images\staff\janice_lysycia.gif" />
+    <Content Include="assets\images\staff\joanne_holttum.gif" />
+    <Content Include="assets\images\staff\pamela_slaughter.gif" />
+    <Content Include="assets\images\staff\rebekah_thomas.gif" />
+    <Content Include="assets\images\staff\sally_corrigan.gif" />
+    <Content Include="assets\scripts\lean-slider.js" />
+    <None Include="contact-us\index.php" />
+    <None Include="fundraising\index.php" />
+    <None Include="gallery\index.php" />
+    <None Include="how-to-apply\index.php" />
+    <Content Include="assets\scripts\galleria\galleria-1.4.2.js" />
+    <Content Include="assets\scripts\galleria\galleria-1.4.2.min.js" />
+    <Content Include="assets\scripts\galleria\plugins\flickr\flickr-demo.html" />
+    <Content Include="assets\scripts\galleria\plugins\flickr\flickr-loader.gif" />
+    <Content Include="assets\scripts\galleria\plugins\flickr\galleria.flickr.js" />
+    <Content Include="assets\scripts\galleria\plugins\flickr\galleria.flickr.min.js" />
+    <Content Include="assets\scripts\galleria\plugins\flickr\loader.gif" />
+    <Content Include="assets\scripts\galleria\plugins\history\galleria.history.js" />
+    <Content Include="assets\scripts\galleria\plugins\history\galleria.history.min.js" />
+    <Content Include="assets\scripts\galleria\plugins\history\history-demo.html" />
+    <Content Include="assets\scripts\galleria\plugins\picasa\galleria.picasa.js" />
+    <Content Include="assets\scripts\galleria\plugins\picasa\galleria.picasa.min.js" />
+    <Content Include="assets\scripts\galleria\plugins\picasa\loader.gif" />
+    <Content Include="assets\scripts\galleria\plugins\picasa\picasa-demo.html" />
+    <Content Include="assets\scripts\galleria\themes\classic\classic-demo.html" />
+    <Content Include="assets\scripts\galleria\themes\classic\classic-loader.gif" />
+    <Content Include="assets\scripts\galleria\themes\classic\classic-map.png" />
+    <Content Include="assets\scripts\galleria\themes\classic\galleria.classic.css" />
+    <Content Include="assets\scripts\galleria\themes\classic\galleria.classic.js" />
+    <Content Include="assets\scripts\galleria\themes\classic\galleria.classic.min.js" />
+    <Content Include="includes\breadcrumb.php" />
+    <Content Include="includes\footer.php" />
+    <Content Include="includes\header.php" />
+    <Content Include="includes\nav.php" />
+    <None Include="index.php" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51694</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

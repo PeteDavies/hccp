@@ -1,0 +1,6 @@
+G:\_development\hccp\bin\HolmesChapelPreSchool.dll.config
+G:\_development\hccp\bin\HolmesChapelPreSchool.dll
+G:\_development\hccp\bin\HolmesChapelPreSchool.pdb
+G:\_development\hccp\obj\Release\HolmesChapelPreSchool.csprojResolveAssemblyReference.cache
+G:\_development\hccp\obj\Release\HolmesChapelPreSchool.dll
+G:\_development\hccp\obj\Release\HolmesChapelPreSchool.pdb

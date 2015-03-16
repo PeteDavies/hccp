@@ -1,0 +1,44 @@
+<system.serviceModel>
+    <serviceHostingEnvironment aspNetCompatibilityEnabled="true" />
+    <client>
+      <!--Client configuration for the ImageEditor, the client name has to be "ImageServiceClientEndPoint"-->
+      <!-- Only uncomment if the Image Service is hosted in an external application 
+      <endpoint
+       name="ImageServiceClientEndPoint" address="the address of the hosting application" binding="the binding the hosting application is using" bindingConfiguration="ImageServiceBinding" contract="EPiServer.ImageLibrary.IImageService" />
+       -->
+      <endpoint name="RemoteEventServiceClientEndPoint" address="soap.udp://239.255.255.19:5000/RemoteEventService" binding="customBinding" bindingConfiguration="RemoteEventsBinding" contract="EPiServer.Events.ServiceModel.IEventReplication" />
+    </client>
+    <bindings>
+      <!-- Only uncomment if the Image Service is hosted in an external application 
+      <binding type used by the Image Service>
+        <binding name="ImageServiceBinding" maxReceivedMessageSize="20000000">
+          <readerQuotas maxArrayLength="20000000" />
+          <security mode="None" />
+        </binding>
+      </binding type used by the Image Service>
+       -->
+      <customBinding>
+        <binding name="RemoteEventsBinding">
+          <binaryMessageEncoding />
+          <udpTransport1 multicast="True" nicToUseName="Prod"/>
+        </binding>
+      </customBinding>
+    </bindings>
+    <extensions>
+      <bindingElementExtensions>
+        <add name="udpTransport1" type="Microsoft.ServiceModel.Samples.UdpTransportElement, EPiServer.Events" />
+      </bindingElementExtensions> 
+    </extensions>
+    <services>
+      <service name="EPiServer.Events.Remote.EventReplication" behaviorConfiguration="DebugServiceBehaviour">
+        <endpoint name="RemoteEventServiceEndPoint" address="soap.udp://239.255.255.19:5000/RemoteEventService" contract="EPiServer.Events.ServiceModel.IEventReplication" binding="customBinding" bindingConfiguration="RemoteEventsBinding" />
+      </service>
+    </services>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior name="DebugServiceBehaviour">
+          <serviceDebug includeExceptionDetailInFaults="true" />
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+  </system.serviceModel>

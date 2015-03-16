@@ -17,16 +17,17 @@
         <div class="container">
             <div class="header">
                 <div class="useful-info">
-                    <span>tel: 01477 537375 | </span>
-                    <span>email: <a href="mailto:info@hccp.org.uk">info@hccp.org.uk</a> | </span>
-                    <span id="facebook-logo"><a href="http://www.facebook.com/hccps" target="_blank"><img src="/assets/images/facebook_logo.gif" alt="Visit us on Facebook"/></a></span>
+					<span id="facebook-logo"><a href="http://www.facebook.com/hccps" target="_blank"><img src="http://www.afpmb.org/sites/default/files/images/facebook_logo_icon_40x40.png" alt="Visit us on Facebook"/></a></span>
+                    <span>| tel: 01477 537375 | </span>
+                    <span>email: <a href="mailto:info@hccp.org.uk">info@hccp.org.uk</a></span>
+                    
                 </div>
                 <div class="logo-left">
-                    <img src="/assets/images/logo.gif" alt="Holmes Chapel community Pre-school"/>
+                    <img src="/assets/images/logo.gif" alt="Holmes Chapel Community Pre-school"/>
                 </div>
                 <div class="title">
                     <span id="mainTitle">Holmes Chapel</span>
-                    <span id="community">community</span> <span id="pre-school">pre-school</span> 
+                    <span id="community">Community</span> <span id="pre-school">Pre-School</span> 
                 </div>
                 <div class="logo-right">
                     <img src="/assets/images/play_learn_grow_logo.gif" alt="Play Learn Grow"/>   
