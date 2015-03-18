@@ -47,7 +47,7 @@ $pagename = "Our Staff";
                                     <div class="staffMemberContent">
                                         <h3><a href="janice-lysycia">Janice Lysycia</a></h3>
                                         <p>I'm a Pre-School assistant with an NNEB qualification. I've worked at Pre-School since 2005 and I have two children of my own.</p> 
-                                        <!--I’d like to feel that I bring ‘experience’ into the Pre-School environment, as I love working with young children, and as well as being a Sunday School leader, I help run different activity sessions for children of all ages.-->
+                                        <!--Iâ€™d like to feel that I bring â€˜experienceâ€™ into the Pre-School environment, as I love working with young children, and as well as being a Sunday School leader, I help run different activity sessions for children of all ages.-->
                                     </div>
                               </div>
                         </div>
@@ -76,6 +76,16 @@ $pagename = "Our Staff";
                                         <p>I love my role as a Pre-school assistant and have been working here for 5 years.</p>
                                         
                                     </div>
+                              </div>
+                              <div class="staffMember">
+                                <img src="/assets/images/staff/emma_capewell.gif" />
+                                <div class="staffMemberContent">
+                                  <h3>
+                                    <a href="emma-capewell">Emma Capewell</a>
+                                  </h3>
+                                  <p>I am the Pre School Supervisor. I oversee the day to day running of the setting and implement the continuous improvement plan</p>
+
+                                </div>
                               </div>
                         </div>
 
