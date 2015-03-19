@@ -67,10 +67,13 @@
     <Folder Include="fundraising\spend-and-raise\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about-us\our-staff\emma-capewell\index.php" />
     <Content Include="assets\documents\E_safety_Policy_2015.doc" />
     <Content Include="assets\documents\Social_Media_policy_-_Jan_2015.docx" />
     <None Include="Properties\PublishProfiles\hccp.pubxml" />
-    <None Include="school-information\policies\index.php" />
+    <None Include="school-information\policies\index.php">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="school-information\inclusion\index.php" />
     <None Include="school-information\term-dates\index.php" />
     <None Include="school-information\fees-and-grants\index.php" />
@@ -119,6 +122,7 @@
     <Content Include="assets\images\spotlight_image_map.gif" />
     <Content Include="assets\images\staff\alison-smethurst.gif" />
     <Content Include="assets\images\staff\diane_cox.gif" />
+    <Content Include="assets\images\staff\emma_capewell.gif" />
     <Content Include="assets\images\staff\janice_lysycia.gif" />
     <Content Include="assets\images\staff\joanne_holttum.gif" />
     <Content Include="assets\images\staff\pamela_slaughter.gif" />
